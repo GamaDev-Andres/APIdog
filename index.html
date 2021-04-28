@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Buscador de razas</title>
+  </head>
+  <body>
+    <!-- CABECERAR -->
+    <header class="header" id="header">
+      <h1 class="header__titulo">Adopccion de perros</h1>
+      <div class="header__divimg">
+        <img class="imagen" src="./gran-manada.jpg" alt="" />
+      </div>
+    </header>
+    <!-- NAVEGACION -->
+    <nav class="navegacion">
+      <form id="buscador" class="navegacion__formulario">
+        <input name="search" type="search" placeholder="Buscar raza..." />
+      </form>
+      <div class="navegacion__enlaces">
+        <a href="index.html" class="enlaces">Inicio</a>
+        <a href="#" class="enlaces">Encuentranos</a>
+        <a href="#" class="enlaces">Nosotros</a>
+      </div>
+    </nav>
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="contenedor">
+      <h2 class="titulo">Bienvenido</h2>
+      <div id="resultados" class="resultados"></div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
